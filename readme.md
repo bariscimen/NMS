@@ -27,7 +27,7 @@ You can deploy the application by following the steps below:
  2. `cd newslettermanagementsystem`
  3. Change `MYSQL_DATABASE` and `MYSQL_ROOT_PASSWORD` values in `docker-compose.yml` file
  4. `docker-compose up -d`
- 5. Edit `.env` file according to your configurations
+ 5. Create `.env` file according to your configurations
  6. `docker-compose exec -u root app bash install.sh`
 
 Now, you can access the app at http://localhost/

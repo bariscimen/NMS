@@ -35,7 +35,6 @@ RUN set -ex; \
 	rm -fr html; \
 	groupadd -g 1000 www; \
 	useradd -u 1000 -ms /bin/bash -g www www; \
-	cp /var/www/.env.example /var/www/.env; \
 	chown -R www:www /var/www
 
 
