@@ -4,12 +4,13 @@
 NMS is a transactional e-mail micro-service. This micro-service uses external services to send emails. When such an external service is unavailable there is a fallback to a secondary service. It is also possible to extend fallback services.  
   
  1. Developed using Laravel 5.8  
- 2. Graphical User Interface is developed using VueJS, JQuery, and Bootstrap.  
+ 2. Graphical User Interface (GUI) is developed using VueJS, JQuery, and Bootstrap.  
  3. GUI supports for Text, HTML, and Markdown mail contents.  
- 4. Expandable Mail Drivers with WebHook support.  
- 5. PHPUnit test cases.  
- 6. Expandable Asynchronous Workers (default count=8).
- 7. Docker-ready. 
+ 4. Websockets
+ 5. Expandable Mail Drivers with WebHook support.  
+ 6. PHPUnit test cases.  
+ 7. Expandable Asynchronous Workers (default count=8).
+ 8. Docker-ready. 
   
 ## Transactional Mailing Mechanism  
   
